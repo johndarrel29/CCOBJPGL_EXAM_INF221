@@ -25,6 +25,9 @@ public class App {
         Subic.accept(rere);
         StrawberryFarm.accept(rere);
         hundredIslands.accept(rere);
+        
+        //Single dispatch
+        rere.visit(batangas);
 
     }
 }
