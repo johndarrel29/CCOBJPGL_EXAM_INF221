@@ -9,13 +9,12 @@ public class Me implements Tourist {
     public void visit(Boracay boracay) {
 
         //Define your visit
-        int airFare = 100;
 
-        System.out.println("Borcay's airFare is " + airFare);
+        System.out.println("Borcay's airFare is " + boracay.airFare);
 
-        if (budget > airFare) {
+        if (budget > boracay.airFare) {
             System.out.println("The white sand is so beautiful");
-            budget = budget - airFare;
+            budget = budget - boracay.airFare;
             checkBudget();
             System.out.println("");
         } else {
@@ -27,13 +26,12 @@ public class Me implements Tourist {
     public void visit(Pangasinan HundredIslands) {
 
         // Define your visit
-        int airFare = 200;
 
-        System.out.println("Pangasinan's Hundred Islands airFare is " + airFare);
+        System.out.println("Pangasinan's Hundred Islands airFare is " + HundredIslands.airFare);
         
-        if (budget > airFare) {
+        if (budget > HundredIslands.airFare) {
             System.out.println("The islands are a masterpiece");
-            budget = budget - airFare;
+            budget = budget - HundredIslands.airFare;
             checkBudget();
             System.out.println("");
         } else {
@@ -44,13 +42,12 @@ public class Me implements Tourist {
     public void visit(Zambales Subic) {
 
         // Define your visit
-        int airFare = 300;
 
-        System.out.println("Zambales' Subic airFare is " + airFare);
+        System.out.println("Zambales' Subic airFare is " + Subic.airFare);
 
-        if (budget > airFare) {
+        if (budget > Subic.airFare) {
             System.out.println("The wind is so calming");
-            budget = budget - airFare;
+            budget = budget - Subic.airFare;
             checkBudget();
             System.out.println("");
         } else {
@@ -62,13 +59,12 @@ public class Me implements Tourist {
     public void visit(Baguio StrawberryFarm) {
 
         // Define your visit
-        int airFare = 250;
         
-        System.out.println("Baguio's Strawberry Farm airFare is " + airFare);
+        System.out.println("Baguio's Strawberry Farm airFare is " + StrawberryFarm.airFare);
 
-        if (budget > airFare) {
+        if (budget > StrawberryFarm.airFare) {
             System.out.println("The strawberries are delicious");
-            budget = budget - airFare;
+            budget = budget - StrawberryFarm.airFare;
             checkBudget();
             System.out.println("");
         } else {
@@ -80,13 +76,12 @@ public class Me implements Tourist {
     public void visit(Bohol ChocolateHills) {
 
         // Define your visit
-        int airFare = 150;
 
-        System.out.println("Bohol's Chocolate Hills airFare is " + airFare);
+        System.out.println("Bohol's Chocolate Hills airFare is " + ChocolateHills.airFare);
         
-        if (budget > airFare) {
+        if (budget > ChocolateHills.airFare) {
             System.out.println("The hills really does look like a chocolate");
-            budget = budget - airFare;
+            budget = budget - ChocolateHills.airFare;
             checkBudget();
             System.out.println("");
         } else {
@@ -97,13 +92,12 @@ public class Me implements Tourist {
     public void visit(Batangas batangas) {
 
         // Define your visit
-        int airFare = 350;
 
-        System.out.println("Batangas' airFare is " + airFare);
+        System.out.println("Batangas' airFare is " + batangas.airFare);
         
-        if (budget > airFare) {
+        if (budget > batangas.airFare) {
             System.out.println("The beach in here is relaxing");
-            budget = budget - airFare;
+            budget = budget - batangas.airFare;
             checkBudget();
             System.out.println("");
         } else {
